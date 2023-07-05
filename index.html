@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Scrollama: Sticky Side Example</title>
+	<meta name="description" content="Scrollama: Sticky Side Example" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+	<audio autoplay loop volume="0.5">
+		<source src="img/y2mate.com - Young Community  No Trip Royalty Free Music.mp3" type="audio/mpeg">
+		Tu navegador no soporta la reproducción de audio.
+	</audio>
+	<div class="fullscreen">
+		<p id="typed-text"></p>
+	</div>
+	<div class="fullscreen">
+		<img src="img/Spotify_day&night.png" alt="" style="max-width: 300px;">
+		<br><br><br>
+		<p style="max-width: 500px;">Preparate para descubrir como tu personalidad musical evolciona a lo largo del dia y la noche</p>
+		<br><br><br>
+		<img src="img/sol_y_luna.png" style="max-width: 400px;" alt="">
+	</div>
+	<main style="max-width: 1400px; margin: 0 auto">
+			
+		<section id="scrolly">
+			<article>
+				<div class="step" data-step="0" horario="1">
+					
+				</div>
+				<div class="step" data-step="0" horario="1">
+					<p>Buenos días!</p>
+					<p>Qué mejor idea que comenzar la mañana con tus canciones favoritas</p>
+				</div>
+				<div class="step" data-step="3" horario="1">
+					<p>Analizaremos juntos tus hábitos musicales.</p>
+					<p class="small"> A partir de la energía y la felicidad que reflejan las canciones que escuchas en cada momento del día, 
+						podremos descubrir cual es tu personalidad musical.
+					</p>
+				</div>
+				<div class="step" data-step="6" horario="2">
+					<p>Tus primeras canciones del día suelen sonar a las 10:30 am.</p>
+				</div>
+				<div class="step" data-step="8" horario="2">
+					<p>Cuánta calma…</p>
+				</div>
+				<div class="step" data-step="11" horario="2">
+					<p>Una tarde muy tranquila</p>
+					<p class="small">intentaste dormir la siesta?</p>
+				</div>
+				<div class="step" data-step="15" horario="3">
+					<p>Wow, que linda se ve la luna</p>
+				</div>
+				<div class="step" data-step="16" horario="3">
+					<p>okey, esto empieza a sonar.</p>
+				</div>
+				<div class="step" data-step="18" horario="3">
+					<p>Rayos! No podemos procesar tanta energía… ERROR 404</p>
+				</div>
+				<div class="step" data-step="18" horario="3">
+					<p>Las 23:00 hs fue tu hora de mayor actividad.</p>
+					<p class="small">Mírate nada más, pequeño noctámbulo</p>
+				</div>
+				<div class="step" data-step="20" horario="3">
+					<p>A la 01:00 am eres imparable</p>
+				</div>
+				<div class="step" data-step="24" horario="3">
+					<p>¿Cuándo termina la fiesta?</p>
+				</div>
+				<div class="step" data-step="0" horario="3">
+					<p>mmm. Creo que ya podemos hacernos una idea de como eres.</p>
+				</div>
+			</article>
+
+			<figure>
+				<img src="#" alt="" style="max-width: 200px;">
+			</figure>
+		</section>
+	</main>
+	<img src="img/Conclucion.png" style="max-width: 100%;" alt="">
+
+	<!-- <div class='debug'></div> -->
+	<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+	<script src="scripts/scrolly.js"></script>
+	<script src="scripts/tipeo.js"></script>
+</body>
+
+</html>
